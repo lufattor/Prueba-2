@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 /*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
 
-body {
+body { @import url(https://fonts.google.com/specimen/Raleway)
     /*Declaración de tipografía*/
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     /*Declaración de peso de Tipografía*/
@@ -20,7 +20,7 @@ body {
     /*Declaración de color de fondo del body*/
     background-color: black;
     /*Declaración del color de la tipografía en el body*/
-    color: white;
+    color: black;
 }
 
 /*ESTILOS DE CUADRADOS DE COLORES*/
@@ -28,19 +28,19 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #E03616;
+    background-color: #9e5bde;
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: yellowgreen;
+    background-color: rgb(62, 186, 112);
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: rgb(23, 193, 223);
+    background-color: rgb(75, 210, 234);
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: rgba(251, 255, 0, 0.705);
+    background-color: rgb(213, 64, 144);
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
@@ -52,7 +52,7 @@ nav {
 /*ESTILOS LINKS EN BARRA DE NAVEGACIÓN*/
 nav a{
     /*Color te texto*/
-    color: #ffffff;
+    color: rgb(75, 210, 234);
     /*Decoración de texto: subrayado | tachado | etc.*/
     text-decoration: none;
     /*Tipografía*/
@@ -70,7 +70,7 @@ nav a{
 /*Cambios al pasar el mouse sobre el elemento (hover)*/
 nav a:hover{
     /*Cambio de color*/
-    color: #7c7c7c;
+    color: rgb(255, 255, 255);
 }
 
 /*ESTILOS LOGO BARRA DE NAVEGACIÓN*/
@@ -87,7 +87,7 @@ nav a:hover{
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/background_first.jpg);
+    background-image: url(media/fotofondo1.jpg);
     /*Posición del fondo x|y*/
     background-position: center bottom;
     /*¿Repetir fondo? (tramas)*/
@@ -102,7 +102,7 @@ nav a:hover{
 
 .banner_info {
     /*Color de texto*/
-    color: white;
+    color: rgb(255, 255, 255);
     /*Centrar texto*/
     text-align: center;
     /*Transformar texto a mayúsuclas*/
@@ -117,7 +117,7 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: rgba(255, 0, 0, 0.664);
+    background-color: rgb(213, 64, 144);
     /*Color de tipografía*/
     color: white;
     /*Decoracion del texto*/
@@ -139,7 +139,7 @@ nav a:hover{
 /*Al pasar el mouse por arriba*/
 .btn:hover {
     /*Cambio de color de fondo*/
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(75, 210, 234);
 }
 
 /*ESTRUCTURA de la plantilla | Tocar bajo su propio riesgo*/
